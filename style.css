@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: auto;
+  max-width: 31rem;
+  padding: 0 1rem;
+}
+h1{
+    background-color: lightskyblue;
+    padding: 0.5rem;
+}
+#guessField{
+    width: 14rem;
+    font-size: 1rem;
+}
+#submitGuess{
+    cursor: pointer;
+    font-size: 1rem;
+}
+.previousGuess {
+  margin: 1rem 0;
+}
+.result {
+  margin: 1rem 0;
+  font-weight: bolder;
+  color: white;
+}
+.lastGuess {
+  padding: 0.5rem;
+}
+@media (max-width:425px) {
+    #guessField{
+        width: 10rem;
+    }
+}
+@media (max-width: 420px) {
+    #guessField{
+        width: 8rem;
+    }
+}
+@media (max-width:375px) {
+    html{
+        font-size: 0.8rem;
+    }
+    #guessField{
+        width: 12rem;
+    }
+}
+@media (max-width:320px) {
+    #guessField{
+        width: 8rem;
+    }
+}
+@media (max-width:300px) {
+    #guessField{
+        width: 5rem;
+    }
+}
+@media (max-width:276px) {
+    #guessField{
+        width: 4rem;
+    }
+}
+@media (min-width:1400px) {
+    html{
+        font-size: 1.5rem;
+    }
+}

@@ -30,6 +30,26 @@ h1{
 .lastGuess {
   padding: 0.5rem;
 }
+@media (max-width:484px) {
+    #guessField{
+        width: 13rem;
+    }
+}
+@media (max-width:468px) {
+    #guessField{
+        width: 12rem;
+    }
+}
+@media (max-width:452px) {
+    #guessField{
+        width: 11rem;
+    }
+}
+@media (max-width:436px) {
+    #guessField{
+        width: 10rem;
+    }
+}
 @media (max-width:425px) {
     #guessField{
         width: 10rem;
@@ -40,6 +60,11 @@ h1{
         width: 8rem;
     }
 }
+@media (max-width:388px) {
+    #guessField{
+        width: 7rem;
+    }
+}
 @media (max-width:375px) {
     html{
         font-size: 0.8rem;
@@ -48,12 +73,37 @@ h1{
         width: 12rem;
     }
 }
+@media (max-width:365px) {
+    #guessField{
+        width: 11rem;
+    }
+}
+@media (max-width:352px) {
+    #guessField{
+        width: 10rem;
+    }
+}
+@media (max-width:339px) {
+    #guessField{
+        width: 9rem;
+    }
+}
+@media (max-width:326px) {
+    #guessField{
+        width: 8rem;
+    }
+}
 @media (max-width:320px) {
     #guessField{
         width: 8rem;
     }
 }
-@media (max-width:300px) {
+@media (max-width:313px) {
+    #guessField{
+        width: 7rem;
+    }
+}
+@media (max-width:301px) {
     #guessField{
         width: 5rem;
     }
@@ -61,6 +111,11 @@ h1{
 @media (max-width:276px) {
     #guessField{
         width: 4rem;
+    }
+}
+@media (max-width:262px) {
+    #guessField{
+        width: 3rem;
     }
 }
 @media (min-width:1400px) {
